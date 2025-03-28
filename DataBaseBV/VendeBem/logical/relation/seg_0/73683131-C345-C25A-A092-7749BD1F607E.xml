@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_VB_PEDIDO" directorySegmentName="seg_0" id="73683131-C345-C25A-A092-7749BD1F607E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-03-28 01:54:56 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DCD7A150-60DA-BF30-208B-EE905595DAE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>73B008B8-174B-FA46-43E8-CA9DAEE17A4D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
