@@ -128,18 +128,4 @@
 <ownDataTypeParameters>,9,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="6756BAF2-BE7D-5C24-D02D-DE9AD387341F" name="T_VB_PRODUTO PK">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-03-28 01:51:18 UTC</createdTime>
-<ownerDesignName>VendeBem</ownerDesignName>
-<engineerTo>
-<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>31825FA8-E4E2-FC18-6D4E-5AD02C6DCD8D</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

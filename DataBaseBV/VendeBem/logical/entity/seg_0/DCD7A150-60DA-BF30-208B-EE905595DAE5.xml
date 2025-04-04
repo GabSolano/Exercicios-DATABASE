@@ -54,21 +54,6 @@
 <dataTypeSize>70</dataTypeSize>
 <ownDataTypeParameters>70,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_ESTABELECIMENTO" id="FCB31DFE-723B-A2A6-D539-86E0759AB74C">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-03-28 01:43:36 UTC</createdTime>
-<generatorID>F4961329-B78A-B0FF-D229-9BD3ECF225E1</generatorID>
-<ownerDesignName>VendeBem</ownerDesignName>
-<engineerTo>
-<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
-</engineerTo>
-<referedAttribute>2116CDB4-706D-6BB4-1E78-B11B319C2204</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>70</dataTypePrecision>
-<ownDataTypeParameters>,70,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="DS_PAGAMENTOS" id="B02C0AEE-1DB4-E213-B18A-C3C109776270">
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-03-28 01:44:47 UTC</createdTime>
@@ -121,6 +106,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTABELECIMENTO" id="6AF94C18-30A3-8C35-1F0D-0B20AABB2194">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:39:34 UTC</createdTime>
+<generatorID>4EE990AE-CD6E-88D0-BC17-692FFA077209</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<referedAttribute>2116CDB4-706D-6BB4-1E78-B11B319C2204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

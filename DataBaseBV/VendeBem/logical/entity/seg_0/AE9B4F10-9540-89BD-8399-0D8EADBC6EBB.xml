@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE9B4F10-9540-89BD-8399-0D8EADBC6EBB" name="T_VB_MESA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:28:40 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ESTABELECIMENTO" id="B6D20A7E-D4C3-9C9C-D146-ECF3EF9DAB7B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:38:17 UTC</createdTime>
+<generatorID>B6B3D764-782B-D2A1-2672-737D046935DD</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<referedAttribute>2116CDB4-706D-6BB4-1E78-B11B319C2204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_MESA" id="203B0DA5-DAC7-7763-8ADC-722D87D5A7E0">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:41:40 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SL_MESA" id="C08A8772-B610-1C4A-A826-9A44C3714C44">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:41:54 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="QT_POSICAO" id="864BE36E-4373-AD06-DA5D-2B3DC6F0324E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:42:15 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97553B36-BB6C-0E62-4DDD-3F28161029CA" name="T_VB_MESA PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:38:17 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6D20A7E-D4C3-9C9C-D146-ECF3EF9DAB7B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

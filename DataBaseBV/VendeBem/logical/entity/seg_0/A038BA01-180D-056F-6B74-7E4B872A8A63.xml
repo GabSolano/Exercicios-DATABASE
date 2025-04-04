@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A038BA01-180D-056F-6B74-7E4B872A8A63" name="T_VB_ENDERECO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:28:50 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_ENDERECO" id="1A333117-FB1C-7068-A056-18995144B096">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:30:07 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTABELECIMENTO" id="913DCB10-020B-6B5D-B47F-AFF9D0A148ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:37:36 UTC</createdTime>
+<generatorID>EB797421-A453-A926-33EB-82548F054F06</generatorID>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<referedAttribute>2116CDB4-706D-6BB4-1E78-B11B319C2204</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C0E8446-2B58-F543-AAA0-B2DF7FCAA472" name="T_VB_ENDERECO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:30:15 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A333117-FB1C-7068-A056-18995144B096</attributeRef>
+<attributeRef>913DCB10-020B-6B5D-B47F-AFF9D0A148ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

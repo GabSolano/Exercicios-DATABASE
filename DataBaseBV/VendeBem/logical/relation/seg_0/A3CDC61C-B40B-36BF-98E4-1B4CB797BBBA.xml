@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VB_ITENS" directorySegmentName="seg_0" id="A3CDC61C-B40B-36BF-98E4-1B4CB797BBBA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 00:40:40 UTC</createdTime>
+<ownerDesignName>VendeBem</ownerDesignName>
+<engineerTo>
+<item key="4EACC9BB-9DB0-671F-EA8D-3AE683C8ECD1" value="true"/>
+</engineerTo>
+<sourcePk>304B9B51-91B6-9385-C8AD-C7049BC69C3A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DCD7A150-60DA-BF30-208B-EE905595DAE5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7D022971-C6EF-6023-C7E0-C00DD01E83D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
