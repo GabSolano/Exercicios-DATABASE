@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_T_DEPENDENTE" directorySegmentName="seg_0" id="54F1C0E6-B176-47B8-A0B4-DEDA6D040414">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:18:58 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<sourcePk>A41BE1BD-6A3D-BE1C-166C-0B1D6D9AC073</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DC4BAF2D-CE57-F976-6F13-63C1AA30422D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B241A9ED-448D-A07D-3964-6DE89027FD22</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

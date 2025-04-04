@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PK_T_MEDICO_PACIENTE" directorySegmentName="seg_0" id="BBD1D5D5-0D65-4821-AA0A-63B93BBA512D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:34:09 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>28C05071-558E-596D-AEE7-E58F8FB2E7B1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1D60575A-C506-D0F9-CB34-7F4DAFB945E7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

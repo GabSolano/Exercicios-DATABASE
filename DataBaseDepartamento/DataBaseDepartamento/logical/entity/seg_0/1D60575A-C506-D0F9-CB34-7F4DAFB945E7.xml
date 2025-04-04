@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D60575A-C506-D0F9-CB34-7F4DAFB945E7" name="T_PACIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:28:45 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NM_PACIENTE" id="F04C4BB9-969A-AA08-25EF-48F523D4036A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:28:52 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68EC0AAD-C0E2-72AD-79AF-FF3427C135A3" name="T_PACIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:29:03 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F04C4BB9-969A-AA08-25EF-48F523D4036A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

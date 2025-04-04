@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="722A45DE-9BE1-4873-69E2-0C4A64511E05" name="T_LIVRO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:35:04 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NM_LIVRO" id="9D76088C-100A-ED8B-2587-C6971EDC1B63">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:35:15 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_AUTOR" id="23B9B7A6-C85E-7136-40EC-333BC84576BB">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:36:17 UTC</createdTime>
+<generatorID>B0529F11-CA25-3E99-03CE-1363CAD9A7BB</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>1AAD025A-A147-90FD-09A6-20A65448C6C1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E106881-2959-7DD9-521E-C14F38FB7A09" name="T_LIVRO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:35:31 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9D76088C-100A-ED8B-2587-C6971EDC1B63</attributeRef>
+<attributeRef>23B9B7A6-C85E-7136-40EC-333BC84576BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

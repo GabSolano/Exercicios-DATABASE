@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="23EA153B-3AD6-9FFE-A895-9AD24E61ABD8" name="T_PEDIDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:20:32 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_PEDIDO" id="878BCBEB-7526-FE7E-39DB-3DA151343053">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:21:46 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE" id="99774C5A-DC82-5424-86A6-1B9290BC68A2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:27:04 UTC</createdTime>
+<generatorID>DBF4B82B-8E61-6B1F-7682-DC724A0944D3</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>38C1C586-7C44-B229-E14B-6F1721302160</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="15EBA7D7-9B4C-3327-127C-BD884B28C47B" name="T_PEDIDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:21:50 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>878BCBEB-7526-FE7E-39DB-3DA151343053</attributeRef>
+<attributeRef>99774C5A-DC82-5424-86A6-1B9290BC68A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

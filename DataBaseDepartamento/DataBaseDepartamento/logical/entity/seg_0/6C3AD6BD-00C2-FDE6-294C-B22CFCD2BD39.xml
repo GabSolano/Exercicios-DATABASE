@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6C3AD6BD-00C2-FDE6-294C-B22CFCD2BD39" name="T_CLIENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:20:36 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NM_CLIENTE" id="38C1C586-7C44-B229-E14B-6F1721302160">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:20:57 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_PEDIDO" id="1B3809C6-6F6D-8AC4-0828-9DE1FBB1671B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:25:01 UTC</createdTime>
+<generatorID>64D7AEF1-22EB-3428-55B7-608B563075C9</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>878BCBEB-7526-FE7E-39DB-3DA151343053</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CLIENTE1" id="E857736C-9FBA-3DBB-D386-27A4C979ED44">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:27:04 UTC</createdTime>
+<generatorID>64D7AEF1-22EB-3428-55B7-608B563075C9</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>99774C5A-DC82-5424-86A6-1B9290BC68A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="92A6BBB9-87FE-3BC3-0FD7-D68250B6756F" name="T_CLIENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:22:45 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>38C1C586-7C44-B229-E14B-6F1721302160</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

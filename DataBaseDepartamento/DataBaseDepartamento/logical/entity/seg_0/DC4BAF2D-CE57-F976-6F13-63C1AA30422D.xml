@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC4BAF2D-CE57-F976-6F13-63C1AA30422D" name="T_FUNCIONARIO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:04:40 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_FUNCIONARIO" id="FAF02714-EDA0-E109-C6F4-72AD5BE79359">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:04:48 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FUNCIONARIO" id="58550D61-63E7-00B3-8E58-C782BEADBF7C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:05:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do funcionario nao pode abreviar]]></commentInRDBMS>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_DEPARTAMENTO" id="34557666-385A-5CE2-9A5C-870588D60394">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:09:37 UTC</createdTime>
+<generatorID>D75E1568-5CDB-988F-98B5-FD7C17AB4957</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>73B7DDDB-793F-3540-5692-5DDC1F876174</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_USUARIO" id="351AD764-5DB5-D8FE-5AD0-A8F1DCEA31F1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:41:21 UTC</createdTime>
+<generatorID>FB3F5EE8-EAEB-286C-6CF1-0C2CE4B9B1DE</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>C3BEEF95-A3FD-CBA9-AD18-BF81F7751BE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A41BE1BD-6A3D-BE1C-166C-0B1D6D9AC073" name="T_FUNCIONARIO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:05:00 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FAF02714-EDA0-E109-C6F4-72AD5BE79359</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

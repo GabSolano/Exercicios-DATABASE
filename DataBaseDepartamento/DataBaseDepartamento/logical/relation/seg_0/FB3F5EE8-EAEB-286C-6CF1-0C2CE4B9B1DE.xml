@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_T_LOGIN" directorySegmentName="seg_0" id="FB3F5EE8-EAEB-286C-6CF1-0C2CE4B9B1DE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:41:21 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<sourcePk>5F143BFF-D4C6-2CF7-A778-D8F6E1542D61</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B9F5DC8F-CAF9-3B84-637A-A803BF90519D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DC4BAF2D-CE57-F976-6F13-63C1AA30422D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

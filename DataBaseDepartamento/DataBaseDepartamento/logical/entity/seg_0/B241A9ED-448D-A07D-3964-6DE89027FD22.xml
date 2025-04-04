@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B241A9ED-448D-A07D-3964-6DE89027FD22" name="T_DEPENDENTE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:17:13 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_DEPENDENTE" id="7766910A-7CA0-D9B9-0ED9-B048DFA2E296">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:18:03 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_FUNCIONARIO1" id="50A04220-3958-FEE5-BD50-EB73B93541C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:18:58 UTC</createdTime>
+<generatorID>54F1C0E6-B176-47B8-A0B4-DEDA6D040414</generatorID>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<referedAttribute>FAF02714-EDA0-E109-C6F4-72AD5BE79359</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7159B35B-418D-C05F-96CF-F0A9B507F070" name="T_DEPENDENTE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:18:28 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7766910A-7CA0-D9B9-0ED9-B048DFA2E296</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

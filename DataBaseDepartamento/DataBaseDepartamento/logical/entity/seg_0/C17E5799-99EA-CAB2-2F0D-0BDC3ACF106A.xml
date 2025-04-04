@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C17E5799-99EA-CAB2-2F0D-0BDC3ACF106A" name="T_DEPARTAMENTO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:01:51 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD_DEPARTAMENTO" id="73B7DDDB-793F-3540-5692-5DDC1F876174">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:02:00 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DEPARTAMENTO" id="CA408839-4D71-0DD4-14B3-3BA635B0C71E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:02:33 UTC</createdTime>
+<comment><![CDATA[nome do funcionaorio e nao pode ser abreviado]]></comment>
+<commentInRDBMS><![CDATA[nome do funcionaorio e nao pode ser abreviado]]></commentInRDBMS>
+<notes><![CDATA[nome do funcionaorio e nao pode ser abreviado]]></notes>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E3991390-1FE6-B7F9-3CA3-4299E84E4930" name="T_DEPARTAMENTO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-04 01:02:31 UTC</createdTime>
+<ownerDesignName>DataBaseDepartamento</ownerDesignName>
+<engineerTo>
+<item key="AADEE4A1-7F7F-0F60-3CB2-645896242033" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73B7DDDB-793F-3540-5692-5DDC1F876174</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
